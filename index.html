@@ -1,64 +1,481 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ashutosh || Home</title>
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- css -->
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="nav" id="nav">
+      <div class="nav-center">
+        <!-- nav header start -->
+        <div class="nav-header">
+          <img src="./images/new-logo.svg" alt="nav-logo" class="nav-logo" />
+          <button class="nav-btn" id="nav-btn">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </div>
+        <!-- nav header end -->
+        <!-- nav links start -->
+        <ul class="nav-links">
+          <li>
+            <a href="index.html">home</a>
+          </li>
+          <li>
+            <a href="about.html">about</a>
+          </li>
+          <!-- <li>
+            <a href="projects.html">projects</a>
+          </li> -->
+          <li>
+            <a href="contact.html">contact</a>
+          </li>
+        </ul>
+        <!-- nav links end -->
+      </div>
+    </nav>
+    <!-- end of navbar -->
+    <!-- sidebar -->
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebar-center">
+        <button class="close-btn" id="close-btn">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+        <!-- nav links start -->
+        <ul class="sidebar-links">
+          <li>
+            <a href="index.html">home</a>
+          </li>
+          <li>
+            <a href="about.html">about</a>
+          </li>
+          <!-- <li>
+            <a href="projects.html">projects</a>
+          </li> -->
+          <li>
+            <a href="contact.html">contact</a>
+          </li>
+        </ul>
+        <!-- nav links end -->
+        <!-- social icons start-->
+        <ul class="social-icons">
+          <li>
+            <a
+              href="https://github.com/ASHR12"
+              target="_blank"
+              class="social-icon"
+            >
+              <i class="fa-brands fa-github fa-fw"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.facebook.com/ashutosh.shrivastava.3979"
+              target="_blank"
+              class="social-icon"
+            >
+              <i class="fa-brands fa-facebook fa-fw"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/ashutosh-shrivastava-7056659a/"
+              target="_blank"
+              class="social-icon"
+            >
+              <i class="fa-brands fa-linkedin fa-fw"></i>
+            </a>
+          </li>
+        </ul>
+        <!-- social icons end-->
+      </div>
+    </aside>
+    <!-- end of sidebar -->
+    <!-- header -->
+    <header class="hero">
+      <div class="section-center hero-center">
+        <article class="hero-info">
+          <div class="underline"></div>
+          <h1>i'm Ashutosh Shrivastava</h1>
+          <h4>AEM / AEM Adaptive Forms Architect</h4>
+          <a
+            href="./resume/Ashutosh_Resume_2022.pdf"
+            download
+            class="btn hero-btn"
+          >
+            <i class="fa-solid fa-download"></i>resume</a
+          >
+          <!-- social icons -->
+          <ul class="social-icons hero-icons">
+            <li>
+              <a
+                href="https://github.com/ASHR12"
+                target="_blank"
+                class="social-icon"
+              >
+                <i class="fa-brands fa-github fa-fw"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.facebook.com/ashutosh.shrivastava.3979"
+                target="_blank"
+                class="social-icon"
+              >
+                <i class="fa-brands fa-facebook fa-fw"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/ashutosh-shrivastava-7056659a/"
+                target="_blank"
+                class="social-icon"
+              >
+                <i class="fa-brands fa-linkedin fa-fw"></i>
+              </a>
+            </li>
+          </ul>
+          <!-- social icons end-->
+        </article>
+        <article class="hero-img">
+          <img
+            src="./images/profile-circular.png"
+            class="hero-photo"
+            alt="ashutosh shrivastava"
+          />
+        </article>
+      </div>
+    </header>
+    <!-- end of header -->
+    <!-- about -->
+    <section class="section about">
+      <div class="section-center about-center">
+        <!-- about img -->
+        <article class="about-img">
+          <img src="./images/about.jpg" class="about-photo" alt="about img" />
+        </article>
+        <!-- about info -->
+        <article class="about-info">
+          <!-- section title -->
+          <div class="section-title about-title">
+            <h2>about</h2>
+            <div class="underline"></div>
+          </div>
+          <!--end of section title -->
+          <p>
+            CMS specialist with 9+ years of experience in executing projects in
+            the areas of Architecture solution , design, development,
+            deployment, and support. Specialized in Enterprise and Content
+            Management Systems, integrations with complex applications, third
+            party APIs and systems.
+          </p>
+          <p>
+            Adobe Experience Manager -
+            <strong>AEM6.x, CQ5.6 and CQ5.4. </strong>
+          </p>
+          <a href="about.html" class="btn">about me</a>
+        </article>
+      </div>
+    </section>
+    <!-- end of about -->
 
-<head>
-  <meta charset="utf-8">
-  <title>ⒶⓈ Ashutosh Shrivastava </title>
-  <link rel="shortcut icon" href="images/favicon.ico">
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@1,300&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
-</head>
+    <!-- Latest work projects -->
+    <section class="section projects">
+      <!-- section title -->
+      <div class="section-title">
+        <h2>Latest Work</h2>
+        <div class="underline"></div>
+        <p class="project-text">
+          Check out some of my recent work in Node Js , HTML/CSS and Javascript.
+        </p>
+      </div>
+      <!--end of section title -->
+      <div class="section-center projects-center">
+        <!-- Start of Single project -->
+        <a
+          href="https://ashutosh-jobs-api.herokuapp.com/api-use/"
+          target="_blank"
+          class="project-1"
+        >
+          <article class="project">
+            <img src="./images/node.jpg" class="project-photo" alt="node-js" />
+            <div class="project-info">
+              <h4>Jobs API</h4>
+              <p>
+                This project is developed using node js , mongodb and deployed
+                on heroku platform.
+              </p>
+            </div>
+          </article>
+        </a>
+        <!-- End of Single project -->
+        <!-- Start of Single project -->
+        <a
+          href="https://explorenewplace.ashutosh.page/"
+          target="_blank"
+          class="project-2"
+        >
+          <article class="project">
+            <img
+              src="./images/explorenewplace.png"
+              class="project-photo"
+              alt="flex-box-project"
+            />
+            <div class="project-info">
+              <h4>Explore New Place</h4>
+              <p>
+                This is HTML/CSS project, developed using HTML5 and CSS Flexbox
+                concept.
+              </p>
+            </div>
+          </article>
+        </a>
+        <!-- End of Single project -->
+        <!-- Start of Single project -->
+        <a
+          href="https://gridminiproject.ashutosh.page/"
+          target="_blank"
+          class="project-3"
+        >
+          <article class="project">
+            <img
+              src="./images/web.jpg"
+              class="project-photo"
+              alt="grid-project"
+            />
+            <div class="project-info">
+              <h4>Grid CSS Mini Project</h4>
+              <p>
+                This is mini project consist developed using HTML5 and CSS grid
+                concept.
+              </p>
+            </div>
+          </article>
+        </a>
+        <!-- End of Single project -->
+        <!-- Start of Single project -->
+        <a
+          href="https://simongame.ashutosh.page/"
+          target="_blank"
+          class="project-4"
+        >
+          <article class="project">
+            <img
+              src="./images/simongame.PNG"
+              class="project-photo"
+              alt="simon-game"
+            />
+            <div class="project-info">
+              <h4>Simon Game</h4>
+              <p>
+                Simon Game developed using Java Script. This test your memory
+                power.
+              </p>
+            </div>
+          </article>
+        </a>
+        <!-- End of Single project -->
+      </div>
+    </section>
+    <!-- end of latest work projects -->
+    <!-- connect -->
+    <section class="connect">
+      <video
+        controls=""
+        autoplay=""
+        muted=""
+        loop=""
+        class="video-container"
+        poster="./images/connect.jpg"
+      >
+        <source src="./videos/background-video.mp4" type="video/mp4" />
+        Sorry, your browser does not support embedded videos
+      </video>
+      <div class="video-banner">
+        <!-- section title -->
+        <div class="section-title">
+          <h2>let's get in touch</h2>
+          <div class="underline"></div>
+        </div>
+        <!--end of section title -->
+        <p class="video-text">Need help? I'm only an email away.</p>
+        <a href="contact.html" class="btn">contact me</a>
+      </div>
+    </section>
+    <!-- end of connect -->
+    <!-- skills -->
+    <section class="section skills">
+      <!-- section title -->
+      <div class="section-title">
+        <h2>skills</h2>
+        <div class="underline"></div>
+      </div>
+      <div class="section-center skills-center">
+        <article>
+          <h3>Primary Skill</h3>
+          <!-- single skill -->
+          <div class="skill">
+            <p>Adobe Experience Manager Sites</p>
+            <div class="skill-container">
+              <div class="skill-value value-80"></div>
+              <p class="skill-text skill-text-80">80%</p>
+            </div>
+          </div>
+          <!-- single skill end -->
+          <!-- single skill -->
+          <div class="skill">
+            <p>Adobe Experience Manager Forms</p>
+            <div class="skill-container">
+              <div class="skill-value value-70"></div>
+              <p class="skill-text skill-text-70">70%</p>
+            </div>
+          </div>
+          <!-- single skill end -->
+          <!-- single skill -->
+          <div class="skill">
+            <p>Core Java</p>
+            <div class="skill-container">
+              <div class="skill-value value-70"></div>
+              <p class="skill-text skill-text-70">70%</p>
+            </div>
+          </div>
+          <!-- single skill end -->
+        </article>
+        <article>
+          <h3>Secondary Skill</h3>
+          <!-- single skill -->
+          <div class="skill">
+            <p>HTML/CSS</p>
+            <div class="skill-container">
+              <div class="skill-value value-60"></div>
+              <p class="skill-text skill-text-60">60%</p>
+            </div>
+          </div>
+          <!-- single skill end -->
+          <!-- single skill -->
+          <div class="skill">
+            <p>Javascript</p>
+            <div class="skill-container">
+              <div class="skill-value value-70"></div>
+              <p class="skill-text skill-text-70">70%</p>
+            </div>
+          </div>
+          <!-- single skill end -->
+          <!-- single skill -->
+          <div class="skill">
+            <p>Node JS</p>
+            <div class="skill-container">
+              <div class="skill-value"></div>
+              <p class="skill-text">50%</p>
+            </div>
+          </div>
+          <!-- single skill end -->
+        </article>
+      </div>
+      <!--end of section title -->
+    </section>
+    <!-- end of skills -->
+    <!-- timeline -->
+    <section class="section timeline">
+      <!-- section title -->
+      <div class="section-title">
+        <h2>Work Experience</h2>
+        <div class="underline"></div>
+      </div>
+      <!-- end title -->
+      <div class="section-center timeline-center">
+        <!-- start single time line items -->
+        <article class="timeline-item">
+          <h4>29th October 2018 - Till Date</h4>
+          <h4 class="company-name">Wipro</h4>
+          <p>
+            I am currently working as AEM/AEM forms Architect . I design and
+            develop end to system for client which uses AEM as CMS platform.
+          </p>
+          <p>
+            I participate in RFP and works on POC and demos for AEM digital
+            practice.
+          </p>
+          <span class="number">1</span>
+        </article>
+        <!-- end single time line items -->
+        <!-- start single time line items -->
+        <article class="timeline-item">
+          <h4>27th October 2014 to 22nd October 2018</h4>
+          <h4 class="company-name">Publicis Sapient</h4>
+          <p>
+            During 4 years in Publicis Sapient. I worked on multiple project
+            from Support to development and migration.
+          </p>
+          <span class="number">2</span>
+        </article>
+        <!-- end single time line items -->
+        <!-- start single time line items -->
+        <article class="timeline-item">
+          <h4>2nd January 2013 to 20th October 2014</h4>
+          <h4 class="company-name">Accenture</h4>
+          <p>
+            I joined Accenture as fresher during one and half year. I gained
+            knowledge in AEM and Java technology and worked on various project
+            to build my foundation.
+          </p>
+          <span class="number">3</span>
+        </article>
+        <!-- end single time line items -->
+      </div>
+    </section>
+    <!--end of  timeline -->
+    <!-- footer -->
+    <footer class="footer">
+      <!-- social icons -->
+      <ul class="social-icons">
+        <li>
+          <a
+            href="https://github.com/ASHR12"
+            target="_blank"
+            class="social-icon"
+          >
+            <i class="fa-brands fa-github fa-fw"></i>
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.facebook.com/ashutosh.shrivastava.3979"
+            target="_blank"
+            class="social-icon"
+          >
+            <i class="fa-brands fa-facebook fa-fw"></i>
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/ashutosh-shrivastava-7056659a/"
+            target="_blank"
+            class="social-icon"
+          >
+            <i class="fa-brands fa-linkedin fa-fw"></i>
+          </a>
+        </li>
+      </ul>
+      <!-- social icons end-->
+      <p>
+        &copy; <span id="date"></span> Ashutosh Shrivastava. All rights
+        reserved.
+      </p>
+    </footer>
+    <!-- footer end -->
 
-<body>
-  <div class="intro">
-    <img class="top-cloud" src="images/cloud.png" alt="cloud">
-    <div class="intro-text">
-      <h1>I'm Ashutosh Shrivastava.</h1>
-      <h2 class="short-intro">Adobe Certified AEM Architect with 9+ Years of Experience.</h2>
-    </div>
-    <img class="bottom-cloud" src="images/cloud.png" alt="cloud">
-    <!--<img src="images/mountain.png" alt="mountain">-->
-  </div>
-  <div class="middle-container">
-  <div class="profile">
-    <img class="profile-img"src="images/circularimage.png" alt="">
-    <h2>Hello.</h2>
-    <p class="profile-intro">Adobe Certified AEM Architect with 9+ years of experience in executing projects in the areas of Architecture solution and design, development, deployment, and support. Specialized in Enterprise and Content Management Systems, integrations with complex applications, third party APIs and systems. Extensive experience in Web Content Management Systems like AEM6.x, CQ5.6 and CQ5.4.</p>
-  </div>
-  <hr>
-  <div class="skills">
-    <h2>My Skills.</h2>
-    <div class="skill-row">
-      <img class="aem-img" src="images/aem.png" alt="">
-      <h3>Lorem & Ipsum</h3>
-      <p>Lorem ipsum dolor sit amet, quis in duis, iaculis id felis. Consectetuer vestibulum, nunc urna lectus, erat ligula. Hendrerit nam, lectus ante, ut lorem eros.</p>
-    </div>
-    <div class="skill-row">
-      <img class="html-img" src="images/HTML5.png" alt="">
-      <h3>Lorem Ipsum Dolor</h3>
-      <p>Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiams et eu, bibendum interdum, lacus quis mauris. Curabitur wisi, quisque vel eu, rutrum nam.
-      Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiams et eu, bibendum interdum,Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiams et eu, bibendum interdum,</p>
-    </div>
-  </div>
-  <hr>
-  <div class="contact-me">
-    <h2>Get In Touch</h2>
-    <h3>Lorem ipsum dolor sit amet, non elit.</h3>
-    <p class="contact-msg">Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales, tellus donec dui, ornare erat.</p>
-    <a class="btn" href="mailto:ashutoshkarunya@gmail.com">CONTACT ME</a>
-  </div>
-</div>
-
-
-<div class="bottom-container">
-  <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
-  <a class="footer-link" href="https://twitter.com/">Twitter</a>
-  <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
-  <p class='copy-right'>© 2022 Ashutosh Shrivastava.</p>
-</div>
-</body>
-<footer>
-</footer>
+    <script src="./js/app.js"></script>
+  </body>
 </html>
